@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  /* background-color: black; */
+  /* color: white; */
+}
+body {
+  font-family: "Poppins";
+}
+
+header {
+  background-image: linear-gradient(
+    to bottom right,
+    purple,
+    rgb(185, 62, 222),
+    violet,
+    pink
+  );
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  width: 100%;
+}
+header h1 {
+  text-align: center;
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+  padding: 1.25rem 0;
+  margin-left: 1rem;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  font-weight: 400;
+  padding: 15px;
+}
+
+li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.homesection {
+  display: flex;
+  min-height: 92vh;
+}
+
+.homesection .left {
+  flex: 5;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.left img {
+  width: 50%;
+  height: 60%;
+  margin-top: 2rem;
+  border-radius: 50%;
+}
+
+.homesection .right {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  gap: 1rem;
+}
+
+.right p {
+  text-align: justify;
+  padding: 1rem 4rem;
+  font-size: larger;
+}
+
+.right h1 {
+  padding-left: 4rem;
+}
+
+.right a {
+  text-decoration: none;
+  padding: 0.75rem 2.5rem;
+  color: black;
+  font-size: larger;
+  border-radius: 2rem;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, purple, violet, pink);
+  width: 10rem;
+  margin-left: 4rem;
+}
+
+.right a:hover {
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+.aboutsection {
+  display: flex;
+}
+#about h1 {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.aboutsection .left {
+  padding: 2rem;
+  padding-left: 4rem;
+  padding-right: 0;
+  text-align: justify;
+  width: 50%;
+  font-size: larger;
+}
+
+.aboutsection .right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.right img {
+  width: 70%;
+  margin-top: 2rem;
+}
+
+/* || Contact ssection */
+.contactsection {
+  min-height: 50vh;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  width: 100%;
+}
+.contactsection h1 {
+  padding-top: 3rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.contactsection form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+form div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+form label {
+  width: 14rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.content input[type="text"],
+.emailclass input[type="email"] {
+  outline: none;
+  padding: 0.75rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 25rem;
+  font-size: large;
+}
+
+.contact textarea {
+  resize: none;
+  outline: none;
+  padding: 0.35rem;
+  border-radius: 5px;
+  font-size: large;
+  border: 2px solid black;
+}
+
+input[type="submit"] {
+  width: 8rem;
+  padding: 0.5rem;
+  border-radius: 30px;
+  border: none;
+  background-image: linear-gradient(to bottom right, purple, violet, pink);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: large;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+
+/* || Responsive query */
+
+@media screen and (max-width: 1200px) {
+  .homesection .left img {
+    width: 60%;
+    height: 60%;
+  }
+}
+@media screen and (max-width: 720px) {
+  nav ul {
+    justify-content: center;
+    /* margin-left: -2rem; */
+    gap: 0;
+  }
+  .homesection {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left {
+    display: flex;
+    justify-content: center;
+  }
+
+  .left img {
+    width: 270px;
+    height: 270px;
+    margin: 2px auto;
+  }
+
+  .right h1 {
+    padding: 0;
+  }
+
+  .homesection .right {
+    width: 100%;
+    align-items: center;
+    margin: 2rem;
+  }
+  .right p {
+    padding: 1rem 3rem;
+  }
+
+  .right a {
+    margin: 0;
+  }
+
+  .aboutsection {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+  }
+
+  .aboutsection .right {
+    width: 50%;
+  }
+
+  .aboutsection .right img {
+    border-radius: 15px;
+  }
+
+  .aboutsection .left {
+    padding: 0 3rem;
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .contactsection form {
+    margin-top: 2rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .contactsection {
+    margin-top: 5rem;
+    width: 100%;
+  }
+  form div {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    gap: 0.5rem;
+  }
+
+  .content input[type="text"],
+  .emailclass input[type="email"],
+  form textarea {
+    width: 18rem;
+  }
+  /* div label {
+    text-align: left;
+  } */
+}
