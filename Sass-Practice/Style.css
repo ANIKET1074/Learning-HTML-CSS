@@ -1,0 +1,48 @@
+body {
+  background-color: blue;
+}
+
+.container {
+  background-color: blue;
+}
+
+.property, .container {
+  padding: 10px 10px;
+}
+
+.container {
+  border-radius: 20px;
+  background-color: #ff3;
+}
+
+.container:hover {
+  background-color: #ffff99;
+}
+
+.box {
+  background-color: #fff;
+}
+.box ul {
+  list-style-type: none;
+  display: flex;
+}
+.box ul li {
+  margin-left: 3rem;
+  padding: 1rem;
+}
+.box ul li:hover {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.btn, .btn-default {
+  display: block;
+  padding: 5px 10px;
+  background-color: #003366;
+}
+
+.btn-default {
+  background-color: #0066cc;
+  text-decoration: none;
+  color: wheat;
+}/*# sourceMappingURL=Style.css.map */

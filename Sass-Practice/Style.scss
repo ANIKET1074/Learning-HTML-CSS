@@ -1,0 +1,58 @@
+$color: blue;
+$containerColor: #ff3;
+
+body {
+  background-color: $color;
+}
+
+.container {
+  background-color: $color;
+}
+
+@mixin border-radius($size) {
+  border-radius: $size;
+}
+
+.property {
+  padding: 10px 10px;
+}
+
+.container {
+  @include border-radius(20px);
+  background-color: $containerColor;
+  @extend .property;
+}
+
+.container:hover {
+  background-color: lighten($containerColor, 20%);
+}
+
+// Deep Nesting with Sass
+.box {
+  background-color: #fff;
+  ul {
+    list-style-type: none;
+    display: flex;
+    li {
+      margin-left: 3rem;
+      padding: 1rem;
+    }
+    li:hover {
+      background: rgba(#000000, 0.2);
+      cursor: pointer;
+    }
+  }
+}
+
+.btn {
+  display: block;
+  padding: 5px 10px;
+  background-color: #003366;
+}
+
+.btn-default {
+  @extend .btn;
+  background-color: #0066cc;
+  text-decoration: none;
+  color: wheat;
+}
