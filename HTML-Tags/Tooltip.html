@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .container {
+        margin-top: 20px;
+        border-bottom: 1px dotted black;
+        display: inline-block;
+        position: relative;
+      }
+
+      .container .tooltip {
+        visibility: hidden;
+        width: 100px;
+        text-align: center;
+        color: #fff;
+        background-color: black;
+        border-radius: 6px;
+        padding: 5px 0;
+        z-index: 1;
+        position: absolute;
+        bottom: 100%;
+        left: 0%;
+      }
+
+      .container .tooltip::after {
+        position: absolute;
+        content: " ";
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+      }
+      .container:hover .tooltip {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      Hover me
+      <span class="tooltip"> Tooltip text </span>
+    </div>
+
+    <input type="color" />
+    <input type="checkbox" role="switch" />
+    <input type="radio" />
+  </body>
+</html>

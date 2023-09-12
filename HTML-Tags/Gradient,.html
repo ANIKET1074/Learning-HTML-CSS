@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        background-image: linear-gradient(
+          to bottom right,
+          violet,
+          pink,
+          yellow,
+          limegreen
+        );
+        height: 500px;
+      }
+
+      .container2 {
+        margin-top: 2rem;
+        background-image: radial-gradient(
+          circle,
+          rgb(156, 109, 109),
+          pink,
+          violet,
+          purple
+        );
+        height: 500px;
+      }
+
+      /* By setting border-radius-50% we can create the pie chart */
+      /* we can also add total 5 colors in this to make it attractive */
+      /* also specify the position of the center of cone at first argument right "at value" */
+      .container3 {
+        margin-top: 2rem;
+        height: 500px;
+        background-image: conic-gradient(slateblue, cyan, indigo);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container"></div>
+    <div class="container2"></div>
+    <div class="container3"></div>
+  </body>
+</html>
