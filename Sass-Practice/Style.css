@@ -1,9 +1,9 @@
 body {
-  background-color: blue;
+  font: 100% Helvetica, sans-serif;
 }
 
-.container {
-  background-color: blue;
+a {
+  text-decoration: none;
 }
 
 .property, .container {
@@ -12,11 +12,13 @@ body {
 
 .container {
   border-radius: 20px;
-  background-color: #ff3;
+  background: DarkRed;
+  color: #fff;
+  width: 62.5%;
 }
 
 .container:hover {
-  background-color: #ffff99;
+  background-color: #333333;
 }
 
 .box {
@@ -27,12 +29,18 @@ body {
   display: flex;
 }
 .box ul li {
-  margin-left: 3rem;
   padding: 1rem;
+  display: inline-block;
+}
+.box ul li a {
+  color: black;
 }
 .box ul li:hover {
   background: rgba(0, 0, 0, 0.2);
   cursor: pointer;
+}
+.box ul li:hover a {
+  color: rgb(87, 77, 77);
 }
 
 .btn, .btn-default {
