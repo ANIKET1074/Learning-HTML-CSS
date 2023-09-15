@@ -1,2 +1,119 @@
 # Learning-HTML-CSS
+
 This is the repository for Learning Basics of HTML and CSS
+
+## Day-1:
+
+- HTML Learning
+
+  - Task : HTML History , Types of users , How to use ?
+  - Status: completed
+
+  - Task : Basic knowledge of all html elements
+  - Status : Completed
+
+## Day-2:
+
+- HTML Learning
+
+  - Task : Main difference between Html and Html5 , New introduced elements with deep learning
+  - Status : Done
+
+  - Task : All Types of elements, events , modifications , create new tag etc . Learn Email templates
+  - Status : In progress
+
+## Day-3:
+
+- HTML Learning and CSS Learning
+
+  - Task : All Types of elements, events , modifications , create new tag etc . Learn Email templates
+  - Status : Done
+
+  - Task: Why we use CSS, History of CSS, Basic usage of CSS
+  - Status : Done
+
+  - Task : CSS property and its all value, Media queries
+  - Status : In progress
+
+## Day-4:
+
+- CSS Learning
+
+  - Task: CSS property and its all value, Media queries ?
+  - Status: In progress
+
+  - Task: Advance concept of CSS & CSS3
+  - Status: In Progress
+
+## Day-5:
+
+- CSS Learning
+
+  - Task: CSS property and its all value, Media queries
+  - Status: Done
+
+  - Task: Advance concept of CSS & CSS3
+  - Status: In Progress
+
+  - Task : Responsive website practice
+  - Status: In Progress
+
+## Day-6:
+
+- CSS Learning
+
+  - Task: Advance concept of CSS & CSS3
+  - Status: Done
+
+  - Task : Responsive website practice
+  - Status: Done
+
+## Day-7:
+
+- BEM(Block Element Modifier) and Bootstrap
+
+  - Task: Bootstrap
+  - Status: In progress
+
+  - Task : Block Element Modifier
+  - Status: In progress
+
+## Day-8:
+
+- BEM(Block Element Modifier)
+
+  - Task: Block Element Modifier (SMACSS , Preprocessors in CSS , Naming Rule)
+  - Status: In progress
+
+  - Task: Practice of BEM
+  - Status: In progress
+
+## Day-9:
+
+- BEM(Block Element Modifier)
+
+  - Task: Block Element Modifier
+  - Status: Done
+
+  - Task: E-commerce Website template practice
+  - Status: In progress
+
+## Day-10:
+
+- Bootstrap and Website Practice
+
+  - Task: E-commerce Website Practice
+  - Status: Done
+
+  - Task: Bootstrap
+  - Status: In Progress
+
+## Day-11:
+
+- Bootstrap and SCSS
+
+  - Task: Bootstrap (Documentation)
+  - Status: Done
+
+  - Task: CSS Preprocessors(SCSS)
+  - Status: In Progress
