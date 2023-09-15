@@ -1,0 +1,38 @@
+nav {
+  background-color: var(--BG-Color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  box-shadow: 1px 1px 10px #383737;
+  width: 100%;
+}
+
+.nav__images {
+  display: flex;
+  gap: 1em;
+  cursor: pointer;
+}
+
+.nav__list {
+  font-size: smaller;
+  display: flex;
+  gap: 1.5em;
+  padding: 0.75em;
+}
+
+.nav__search,
+.nav__shopping,
+.nav__account {
+  width: 30px;
+}
+
+.nav__item {
+  border-bottom: 2px solid transparent;
+  transition: 15s ease-in-out;
+}
+.nav__item :is(a:hover, a:active) {
+  border-bottom: 2px solid var(--Color);
+}

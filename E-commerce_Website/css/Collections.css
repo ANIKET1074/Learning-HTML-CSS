@@ -1,0 +1,52 @@
+.collections {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 3em;
+  margin-bottom: 2rem;
+}
+
+.collection__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  z-index: 3;
+  background-color: var(--BG-Color);
+  padding: var(--Padding-TB);
+  border-radius: var(--border-radius);
+  transition: all 0.5s ease-in-out;
+}
+
+.collection__card {
+  position: relative;
+  overflow: hidden;
+}
+
+.collection__img img {
+  opacity: 0.8;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+.collection__img {
+  width: 400px;
+}
+
+.collection__card:hover .collection__img img {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.collection__card:hover .collection__content {
+  transform: scale(1.1);
+}
+
+.collection__season {
+  font-size: medium;
+}
+
+.collection__type {
+  font-size: x-large;
+}
