@@ -117,3 +117,13 @@ This is the repository for Learning Basics of HTML and CSS
 
   - Task: CSS Preprocessors(SCSS)
   - Status: In Progress
+
+## Day-12:
+
+- CSS Preprocessors
+
+  - Task: CSS Preprocessors(SCSS Documentation)
+  - Status: In Progress
+
+  - Task: SCSS Practice
+  - Status: In Progress
