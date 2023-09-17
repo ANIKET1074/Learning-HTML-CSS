@@ -127,3 +127,16 @@ This is the repository for Learning Basics of HTML and CSS
 
   - Task: SCSS Practice
   - Status: In Progress
+
+## Day-12:
+
+- CSS Preprocessors and Tailwind
+
+  - Task: CSS Preprocessors (SCSS Documentation)
+  - Status: Done
+
+  - Task: SCSS Practice
+  - Status: Done
+
+  - Task: Tailwind Framework
+  - Status: In progress
