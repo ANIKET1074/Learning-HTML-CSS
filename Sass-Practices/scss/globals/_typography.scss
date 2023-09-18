@@ -1,3 +1,5 @@
+@use "../util" as u;
+
 h1,
 h2,
 h3 {
@@ -6,8 +8,50 @@ h3 {
   margin-top: 0;
 }
 
+// h1 {
+// for fontsize instead of px use rem i.e root em which set the fontsize relative to the browser font size .
+// so usually 1rem = 16px (browser default font size)
+
+// here sometimes for big screen it gradually increases the font size so it might not seem well
+// so for that use calc function
+//   font-size: 7.5vw;
+
+//   sometimes for larger screen it might not seen well so another technique to optimize is to use clamp function
+//   font-size: calc(16px + 2vw);
+
+//   it is very useful for responsive typography
+//   clamp takes 3 parameters (min value, preferred value, max-value)
+//   font-size: clamp(28px, 16px + 2vw, 40px);
+//   font-size: clamp(1.75rem, 1rem + 2vw, 2.5rem);
+
+// or we can do it by setting the view width
+// 1vw = 1% width of the screen
+// so here mobile device width is 375px so we divide 28 px by mobile width to get the percentage of the view width so 28/375 = 0.0746 ==> 7.5vw
+
+//   @include u.breakpoint(medium) {
+//     font-size: 36px;
+//   }
+
+//   @include u.breakpoint(large) {
+//     font-size: 42px;
+//   }
+
+// }
+
+h1 {
+  //   font-size: clamp(u.rem(28), u.rem(16) + 2vw, u.rem(40));
+}
+
+h2 {
+  //   font-size: clamp(22px, 14px+1.5vw, 36px);
+  //   font-size: clamp(1.375rem, 0.875rem + 1.5vw, 2.25rem);
+  //   font-size: clamp(u.rem(22), u.rem(14), u.rem(36));
+}
+
 p {
   margin-top: 0;
+  //  it takes the value according to its parent element in this case it takes from either main or aside (grid)
+  //   font-size: u.rem(16);
 }
 
 a,
