@@ -140,3 +140,13 @@ This is the repository for Learning Basics of HTML and CSS
 
   - Task: Tailwind Framework
   - Status: In progress
+
+## Day-13:
+
+- CSS Preprocessors and Tailwind
+
+  - Task: Responsive website ( Practice of SCSS and BEM )
+  - Status: Done
+
+  - Task: Tailwind Framework
+  - Status: Done
