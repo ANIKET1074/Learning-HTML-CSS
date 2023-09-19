@@ -1,0 +1,79 @@
+// Creating the variable
+@var1: red;
+@color: white;
+
+// @bg-primary: spin(hsl(204, 70%, 53%), 80);
+@bg-primary: #3498db;
+@bg-success: #2ecc71;
+@bg-warning: #f1c40f;
+@bg-danger: #e74c3c;
+@bg-secondary: #95a5a6;
+@bg-info: #1abc9c;
+@bg-dark: #34495e;
+
+h1 {
+  background-color: @bg-primary;
+  color: @color;
+}
+
+// creating the mixin
+
+.alert {
+  padding: 20px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.create-alert(@background-color) {
+  background-color: lighten(@background-color, 30%);
+  color: darken(@background-color, 30%);
+}
+
+.alert-primary {
+  .create-alert(@bg-primary);
+}
+.alert-secondary {
+  .create-alert(@bg-secondary);
+}
+.alert-danger {
+  .create-alert(@bg-danger);
+}
+.alert-warning {
+  .create-alert(@bg-warning);
+}
+.alert-dark {
+  .create-alert(@bg-dark);
+}
+.alert-success {
+  .create-alert(@bg-success);
+}
+.alert-info {
+  .create-alert(@bg-info);
+}
+
+.content1 {
+  background-color: multiply(#ff6600, #00ff00);
+  padding: 10px 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.content2 {
+  background-color: screen(#ff6600, #333333);
+  padding: 10px 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.content3 {
+  background-color: overlay(#ff6600, #333333);
+  padding: 10px 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.content3 {
+  background-color: hardlight(#ff6600, #cccccc);
+  padding: 10px 10px;
+  color: white;
+  margin-bottom: 10px;
+}
