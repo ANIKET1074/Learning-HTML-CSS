@@ -150,3 +150,16 @@ This is the repository for Learning Basics of HTML and CSS
 
   - Task: Tailwind Framework
   - Status: Done
+
+## Day-13:
+
+- CSS Pre-processor (Less CSS)
+
+  - Task: Less - Basic
+  - Status: Done
+
+  - Task: Less - Advance
+  - Status: In Progress
+
+  - Task: Less CSS Practice
+  - Status: In Progress
