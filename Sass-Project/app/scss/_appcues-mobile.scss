@@ -1,0 +1,45 @@
+@use "./mixins" as m;
+@use "./colors" as c;
+@use "./breakpoints" as b;
+
+.appcues {
+  padding: 2rem;
+  background-image: c.$gradient;
+  color: c.$background-color;
+  @include m.flexitems(column, center, space-around);
+  gap: 1rem;
+  margin: 0 auto;
+  height: 50%;
+  width: 80%;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 2rem;
+  @include b.breakpoint(large) {
+    @include m.flexitems(row, center, space-around);
+    text-align: start;
+    padding: 1rem;
+  }
+
+  &__title {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  &__link {
+    color: c.$background-color;
+    @include m.flexitems(row, center, center);
+    gap: 0.5rem;
+  }
+  &__img {
+    width: 100%;
+    @include b.breakpoint(large) {
+      width: 30%;
+      @include m.flexitems(row, center, center);
+    }
+  }
+  &__img1 {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
