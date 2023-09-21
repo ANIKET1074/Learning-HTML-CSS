@@ -1,0 +1,23 @@
+@use "colors" as *;
+@use "typescale" as *;
+
+:root {
+  @each $colors, $shades in $text-color {
+    @each $shade, $value in $shades {
+      --clr-#{$colors}-#{$shade}: #{$value};
+    }
+  }
+
+  @each $screen-size, $font-size in $type-scale {
+    @if $screen-size==small {
+      @each $size, $value in $font-size {
+        --fs-#{$size}: #{$value};
+      }
+    }
+    // @else {
+    //   @each $size, $value in $font-size {
+    //     --fs-#{$size}: #{$value};
+    //   }
+    // }
+  }
+}

@@ -1,0 +1,77 @@
+@use "./mixins" as m;
+@use "./colors" as c;
+@use "./breakpoints" as b;
+
+.plandetails {
+  padding: 2rem;
+  margin-top: 2rem;
+  background-image: c.$gradient;
+  color: c.$background-color;
+  @include m.flexitems(column, center, space-around);
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 2rem;
+  @include b.breakpoint(large) {
+    @include m.flexitems(coulumn, center, space-around);
+    margin-top: 2rem;
+    text-align: start;
+    padding: 4rem 1rem;
+  }
+
+  &__heading {
+    padding-top: 1rem;
+
+    @include m.flexitems(column, center, center);
+  }
+
+  &__btns {
+    @include m.flexitems(column, center, center);
+    gap: 0.75rem;
+  }
+  &__link {
+    background-color: c.$background-color;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+  }
+
+  &__desc {
+    @include m.flexitems(row, center, center);
+    gap: 2rem;
+    @include b.breakpoint(large) {
+      @include m.flexitems(row, center, center);
+      gap: 10rem;
+    }
+  }
+
+  &__info {
+    @include m.flexitems(row, center, center);
+    gap: 2.5px;
+    @include b.breakpoint(large) {
+      @include m.flexitems(row, center, center);
+      gap: 0.5rem;
+    }
+  }
+
+  &__desc1 {
+    font-size: 8px;
+    color: c.$background-color;
+    margin-bottom: 0;
+
+    @include b.breakpoint(medium) {
+      font-size: 10px;
+      color: c.$background-color;
+      margin-bottom: 0;
+    }
+
+    @include b.breakpoint(large) {
+      font-size: 12px;
+      color: c.$background-color;
+      margin-bottom: 0;
+    }
+  }
+}

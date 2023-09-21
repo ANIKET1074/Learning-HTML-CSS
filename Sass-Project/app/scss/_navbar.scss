@@ -1,0 +1,159 @@
+@use "./mixins" as m;
+@use "./colors" as c;
+@use "./breakpoints" as b;
+.nav {
+  background-color: c.$background-color;
+  color: c.$text-color;
+  @include m.flexitems(row, center, space-between);
+  padding: 0.75rem;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  box-shadow: rgba(10, 21, 43, 0.26) 0px 5px 9px -6px;
+  transition: all 0.5s ease-in-out;
+
+  &__logo {
+    @include m.flexitems(row, center, space-between);
+    width: 100%;
+    padding: 0.75rem 2rem;
+
+    @include b.breakpoint(large) {
+      width: 15%;
+      padding: 0;
+    }
+  }
+  &__img {
+    // width: 100%;
+    width: 130px;
+    height: auto;
+    display: inline-block;
+  }
+
+  &__sidebar {
+    transform: translateX(100%);
+
+    @include b.breakpoint(large) {
+      transform: translateX(0%);
+    }
+  }
+
+  &__ul {
+    position: absolute;
+    @include m.flexitems(column, start, flex-start);
+    z-index: 10000;
+    background-color: white;
+    margin-top: 4rem;
+    padding: 2rem;
+    height: 100vh;
+    width: 80%;
+    top: 18.8%;
+    right: 0;
+    transition: 1s ease-in-out;
+    gap: 2rem;
+    text-align: start;
+    box-shadow: rgba(10, 21, 43, 0.26) 0px 9px 13px -6px;
+    // display: none;
+
+    @include b.breakpoint(large) {
+      //   background-color: whitesmoke;
+      width: 82%;
+      padding: 0;
+      margin: 0;
+      box-shadow: none;
+      height: 100%;
+      position: static;
+      @include m.flexitems(row, center, flex-end);
+      gap: 2rem;
+    }
+  }
+
+  &__link {
+    color: c.$text-color;
+  }
+
+  &__btn {
+    margin-left: 0;
+    @include m.flexitems(row, center, center);
+    gap: 1rem;
+
+    @include b.breakpoint(large) {
+      @include m.flexitems(row, center, center);
+      gap: 1rem;
+      //   margin-left: 12em;
+    }
+  }
+
+  &__btn1 {
+    border: 0.8px solid c.$text-color;
+    border-radius: 8px;
+    width: 7rem;
+    text-align: center;
+    padding: 0.65rem;
+    cursor: pointer;
+    @include m.flexitems(row, center, center);
+    gap: 0.25rem;
+
+    &:hover {
+      background-color: rgba(221, 221, 221, 0.3);
+    }
+  }
+
+  &__user {
+    width: 1.35rem;
+  }
+
+  &__btn2 {
+    border-radius: 8px;
+    width: 7rem;
+    text-align: center;
+    padding: 0.8rem;
+    background-image: c.$gradient;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: rgba(10, 21, 43, 0.26) 0px 9px 13px -6px;
+    }
+  }
+
+  &__btnlink2 {
+    color: c.$background-color;
+  }
+
+  &__menu-btn {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    @include m.flexitems(column, center, center);
+    gap: 0.5rem;
+    cursor: pointer;
+
+    @include b.breakpoint(large) {
+      display: none;
+    }
+  }
+
+  &__menu-icon {
+    width: 100%;
+    border-radius: 0.5em;
+    border: 2px solid black;
+    transition: all 0.5s ease-in-out;
+
+    &:nth-child(even) {
+      position: relative;
+      left: 10px;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+
+  &__menu-btn2 {
+    transform: scale(0);
+  }
+  $move: 11px;
+  &__menu-btn1 {
+    transform: translateY($move) rotate(45deg);
+  }
+  &__menu-btn3 {
+    transform: translateY(-$move) rotate(-45deg);
+  }
+}

@@ -1,0 +1,26 @@
+:root {
+  --clr-primary-100: #ccccff;
+  --clr-primary-200: #9999ff;
+  --clr-primary-300: #6666ff;
+  --clr-primary-400: #3333ff;
+  --clr-primary-500: #0000ff;
+  --clr-primary-600: #0000cc;
+  --clr-primary-700: #000099;
+  --clr-primary-800: #000066;
+  --clr-primary-900: #000033;
+  --clr-article-100: #ffcccc;
+  --clr-article-200: #ff9999;
+  --clr-article-300: #ff6666;
+  --clr-article-400: #ff3333;
+  --clr-article-500: #ff0000;
+  --clr-article-600: #cc0000;
+  --clr-article-700: #990000;
+  --clr-article-800: #660000;
+  --clr-article-900: #330000;
+  --fs-300: 1rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.563rem;
+  --fs-600: 1.953rem;
+  --fs-700: 2.441rem;
+  --fs-800: 3.052rem;
+} /*# sourceMappingURL=style.css.map */

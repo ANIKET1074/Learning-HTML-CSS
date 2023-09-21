@@ -1,0 +1,152 @@
+@use "./mixins" as m;
+@use "./colors" as c;
+@use "./breakpoints" as b;
+
+.reviews {
+  background-image: c.$bg-color2;
+  color: c.$background-color;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+
+  @include m.flexitems(column, center, center);
+  //   max-width: 1200px;
+  //   flex-wrap: wrap;
+  height: 100%;
+
+  &__heading {
+    padding: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    width: 100%;
+    @include b.breakpoint(large) {
+      padding: 1rem;
+      width: 75%;
+    }
+  }
+
+  &__img {
+    width: 15%;
+
+    @include b.breakpoint(large) {
+      width: 10%;
+    }
+  }
+
+  &__content {
+    @include m.flexitems(column, center, space-between);
+    padding: 1rem 2rem;
+
+    gap: 1.5rem;
+    width: 100%;
+    @include b.breakpoint(large) {
+      @include m.flexitems(row, center, space-between);
+      gap: 1rem;
+      width: 75%;
+      margin-bottom: 6rem;
+    }
+  }
+
+  &__contents {
+    @include m.flexitems(column, center, center);
+    width: 100%;
+    gap: 1rem;
+    background-color: c.$bg-color3;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 30px;
+    @include b.breakpoint(large) {
+      @include m.flexitems(column, center, space-between);
+      width: 32.5%;
+      height: 20rem;
+      gap: 1rem;
+    }
+  }
+
+  &__content-img {
+    margin-bottom: 10px;
+    width: 35px;
+    height: 35px;
+    @include b.breakpoint(large) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__content-title {
+    font-size: clamp(1.75rem, 1rem + 2vw, 2.75rem);
+    line-height: 1.1;
+    font-weight: 700;
+  }
+
+  &__content-title {
+    color: c.$background-color;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+  &__content-desc {
+    color: c.$text-color4;
+    font-size: 12px;
+
+    @include b.breakpoint(medium) {
+      font-size: 14px;
+      color: c.$text-color4;
+      margin-bottom: 0;
+    }
+
+    @include b.breakpoint(large) {
+      font-size: 16px;
+      color: c.$text-color4;
+      margin-bottom: 0;
+    }
+  }
+
+  &__section {
+    width: 100%;
+    // height: fit-content;
+    @include m.flexitems(column, center, center);
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+
+    @include b.breakpoint(large) {
+      @include m.flexitems(row, center, space-between);
+      width: 75%;
+      margin-top: 0;
+      margin-bottom: 4rem;
+    }
+  }
+
+  &__content-heading {
+    @include m.flexitems(row, center, center);
+    gap: 1rem;
+  }
+
+  &__section-img {
+    text-align: center;
+    @include m.flexitems(column, center, center);
+    gap: 0.35rem;
+
+    @include b.breakpoint(large) {
+      @include m.flexitems(column, flex-start, center);
+    }
+  }
+
+  &__company-img {
+    width: 3rem;
+  }
+
+  &__companys {
+    @include m.flexitems(row, start, center);
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+    @include b.breakpoint(large) {
+      @include m.flexitems(row, center, center);
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+  }
+}

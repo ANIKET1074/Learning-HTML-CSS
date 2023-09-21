@@ -1,0 +1,169 @@
+@use "./mixins" as m;
+@use "./colors" as c;
+@use "./breakpoints" as b;
+
+.customer {
+  @include m.flexitems(column, center, center);
+  transition: all 0.5s ease-in-out;
+  height: 50%;
+
+  @include b.breakpoint(large) {
+    @include m.flexitems(row, center, center);
+  }
+
+  &__left {
+    width: 100%;
+    @include m.flexitems(column, center, center);
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    gap: 1rem;
+    padding: 3rem;
+
+    @include b.breakpoint(large) {
+      width: 50%;
+      @include m.flexitems(column, start, center);
+      gap: 1rem;
+      text-align: start;
+      // padding-top: 4rem;
+      padding-right: 6rem;
+      padding-left: 6rem;
+    }
+  }
+
+  &__subscription {
+    @include m.flexitems(row, center, center);
+    gap: 3rem;
+    margin-top: 2rem;
+
+    @include b.breakpoint(large) {
+      @include m.flexitems(column, start, flex-start);
+      gap: 1rem;
+      margin-top: 0;
+    }
+  }
+
+  &__text {
+    font-size: 11px;
+    color: c.$text-color2;
+
+    @include b.breakpoint(medium) {
+      font-size: 14px;
+      color: c.$text-color;
+      margin-bottom: 0;
+    }
+
+    @include b.breakpoint(large) {
+      font-size: 15px;
+      color: c.$text-color;
+      margin-bottom: 0;
+    }
+  }
+
+  &__desc {
+    font-size: 11px;
+    color: c.$text-color;
+    margin-bottom: 0;
+    text-align: center;
+
+    @include b.breakpoint(medium) {
+      font-size: 14px;
+      color: c.$text-color;
+      margin-bottom: 0;
+      text-align: center;
+    }
+
+    @include b.breakpoint(large) {
+      font-size: 15px;
+      text-align: justify;
+      color: c.$text-color;
+      margin-bottom: 0;
+    }
+  }
+
+  &__desc2 {
+    font-size: 8px;
+    color: c.$text-color;
+    margin-bottom: 0;
+
+    @include b.breakpoint(medium) {
+      font-size: 10px;
+      color: c.$text-color;
+      margin-bottom: 0;
+    }
+
+    @include b.breakpoint(large) {
+      font-size: 13px;
+      color: c.$text-color;
+      margin-bottom: 0;
+    }
+  }
+
+  &__person {
+    @include m.flexitems(row, center, space-between);
+    width: 100%;
+    text-align: start;
+    @include b.breakpoint(large) {
+      @include m.flexitems(row, center, space-between);
+      gap: 0.5rem;
+    }
+  }
+
+  &__person-section {
+    @include m.flexitems(row, center, flex-start);
+    width: 100%;
+    text-align: start;
+    @include b.breakpoint(large) {
+      @include m.flexitems(row, center, flex-start);
+    }
+    gap: 0.5rem;
+  }
+  &__items {
+    @include m.flexitems(column, center, flex-start);
+    gap: 1rem;
+    text-align: center;
+
+    @include b.breakpoint(large) {
+      @include m.flexitems(row, center, flex-start);
+    }
+  }
+
+  &__items-img {
+    width: 20px;
+  }
+
+  &__card {
+    background-color: c.$card-color;
+    border-radius: 20px 20px 20px 0;
+    padding: 25px 25px 25px;
+    box-shadow: rgba(10, 21, 43, 0.26) 0px 9px 13px -6px;
+    @include m.flexitems(column, start, flex-start);
+    width: 100%;
+    height: fit-content;
+    gap: 1rem;
+    @include b.breakpoint(large) {
+      width: 65%;
+      gap: 1rem;
+    }
+  }
+
+  &__right {
+    width: 100%;
+    padding: 1rem;
+    @include m.flexitems(row, center, flex-start);
+
+    @include b.breakpoint(large) {
+      width: 50%;
+      padding: 4rem;
+    }
+  }
+
+  &__right-img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+
+    @include b.breakpoint(large) {
+      width: 80%;
+    }
+  }
+}
