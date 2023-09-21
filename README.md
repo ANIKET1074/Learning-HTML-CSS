@@ -128,7 +128,7 @@ This is the repository for Learning Basics of HTML and CSS
   - Task: SCSS Practice
   - Status: In Progress
 
-## Day-12:
+## Day-13:
 
 - CSS Preprocessors and Tailwind
 
@@ -141,7 +141,7 @@ This is the repository for Learning Basics of HTML and CSS
   - Task: Tailwind Framework
   - Status: In progress
 
-## Day-13:
+## Day-14:
 
 - CSS Preprocessors and Tailwind
 
@@ -151,7 +151,7 @@ This is the repository for Learning Basics of HTML and CSS
   - Task: Tailwind Framework
   - Status: Done
 
-## Day-13:
+## Day-15:
 
 - CSS Pre-processor (Less CSS)
 
@@ -164,7 +164,7 @@ This is the repository for Learning Basics of HTML and CSS
   - Task: Less CSS Practice
   - Status: In Progress
 
-## Day-14:
+## Day-16:
 
 - CSS Pre-processor (Less CSS)
 
@@ -173,3 +173,15 @@ This is the repository for Learning Basics of HTML and CSS
 
   - Task: Materialize CSS, Sementic UI
   - Status: In Progress
+
+## Day-17:
+
+- Task Given as Test
+  -Task: Materialize CSS, Sementic UI
+  -Status: Done
+
+  -Task: Setting the Directory structure for given task
+  -Status: Done
+
+  -Task: Given task's Navbar , About page
+  -Status: Done
