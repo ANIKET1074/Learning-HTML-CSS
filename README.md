@@ -176,12 +176,26 @@ This is the repository for Learning Basics of HTML and CSS
 
 ## Day-17:
 
-- Task Given as Test
-  -Task: Materialize CSS, Sementic UI
-  -Status: Done
+- Task Given as Task
 
-  -Task: Setting the Directory structure for given task
-  -Status: Done
+  - Task: Materialize CSS, Sementic UI
+  - Status: Done
 
-  -Task: Given task's Navbar , About page
-  -Status: Done
+  - Task: Setting the Directory structure for given task
+  - Status: Done
+
+  - Task: Given task's Navbar , About page
+  - Status: Done
+
+## Day-18:
+
+- Website using SCSS
+
+  - Task: Home Section
+  - Task: Service Section
+  - Task: Adoption Section
+  - Task: Memories Section
+  - Task: Footer Section
+
+  - Task 1 completed
+  - Status: Done
