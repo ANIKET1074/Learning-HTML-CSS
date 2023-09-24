@@ -199,3 +199,13 @@ This is the repository for Learning Basics of HTML and CSS
 
   - Task 1 completed
   - Status: Done
+
+## Day-19:
+
+- Website using SCSS
+
+  - Task : Responsive Website design technique
+  - Status : Done
+
+  - Task : Make responsive Design for given project
+  - Status : In progress
