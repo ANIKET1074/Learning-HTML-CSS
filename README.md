@@ -209,3 +209,17 @@ This is the repository for Learning Basics of HTML and CSS
 
   - Task : Make responsive Design for given project
   - Status : In progress
+
+## Day-20:
+
+- Responsive Website and JS Learning
+
+  - Task : Make responsive Design for given project (Task-1 completed)
+  - Status : Done
+
+  - Task : Javascript history and use
+  - Task : Datatypes in JS (Number, String, Boolean, Undefined)
+  - Task : Conditional Statements in JS , Loops in JS
+  - Task : Variable Syntax , Function Syntax in JS
+
+  - Status : Done
