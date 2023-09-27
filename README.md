@@ -223,3 +223,13 @@ This is the repository for Learning Basics of HTML and CSS
   - Task : Variable Syntax , Function Syntax in JS
 
   - Status : Done
+
+## Day-21:
+
+- JS Learning
+
+  - Task : Function in JS
+  - Task : Variable scope (local , global , block)
+  - Task : Arrays and nd arrays in JS (Methods of array)
+  - Task : JS Practice using Loops , Conditional stmt, arrays
+  - Status : Done
