@@ -1,6 +1,6 @@
 # Learning-HTML-CSS
 
-This is the repository for Learning Basics of HTML and CSS
+This is the repository for Learning Basics of HTML , CSS and JS during the internship
 
 ## Day-1:
 
