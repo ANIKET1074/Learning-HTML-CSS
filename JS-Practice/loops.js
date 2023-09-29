@@ -1,4 +1,5 @@
 // There are 3 types of loops
+let num = [12, 14, 74, 10, 55, 5];
 
 // 1) While loop
 //  -> Syntax
@@ -17,3 +18,19 @@
 // do{
 // code here
 // }while(condition)
+
+// 4) for each loop
+// num.forEach((element) => {
+//   console.log(element * element);
+// });
+
+// 5) for... of loop :-
+// for (let i of num) {
+//   console.log(i);
+// }
+
+// 6) for... in loop
+// for (let i in num) {
+// console.log(i)     //it returns the index of array element
+// console.log(num[i])  //it returns the elements in array
+//   }
