@@ -31,3 +31,10 @@ console.log(dt3.getMonth());
 // getSeconds();
 // getMilliseconds();
 // getTime();
+
+// Setting methods of date
+
+const dt4 = new Date();
+console.log(dt4.setFullYear(2023));
+console.log(dt4.setMonth(10));
+console.log(dt4.setHours(13));
