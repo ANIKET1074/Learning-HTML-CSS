@@ -233,3 +233,13 @@ This is the repository for Learning Basics of HTML and CSS
   - Task : Arrays and nd arrays in JS (Methods of array)
   - Task : JS Practice using Loops , Conditional stmt, arrays
   - Status : Done
+
+## Day-22:
+
+- JS Learning
+
+  - Task : Javascript type conversion (toString, parseFloat, parseInt)
+  - Task : Javascript Dates (date format, getdate method, set method)
+  - Task : Javascript Math (methods are pi, log, power, sqrt, etc) and Random
+  - Task : Javascript break, continue and loops(for each, for of, for in)
+  - Status : Done
