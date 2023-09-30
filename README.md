@@ -243,3 +243,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Javascript Math (methods are pi, log, power, sqrt, etc) and Random
   - Task : Javascript break, continue and loops(for each, for of, for in)
   - Status : Done
+
+## Day-23:
+
+- JS Learning
+
+  - Task : Javascript objects
+  - Task : Precedence order in Javascript
+  - Task : Javascript Regular expression and its modifier
+  - Task : Javascript Bitwise operator (and, or, xor, not, etc)
+  - Task : This keyword in Javascript
+  - Status : Done
