@@ -35,6 +35,7 @@ console.log(dt3.getMonth());
 // Setting methods of date
 
 const dt4 = new Date();
-console.log(dt4.setFullYear(2023));
-console.log(dt4.setMonth(10));
-console.log(dt4.setHours(13));
+dt4.setFullYear(2023);
+dt4.setMonth(10);
+dt4.setHours(13);
+console.log(dt4.getHours());
