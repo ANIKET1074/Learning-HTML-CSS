@@ -254,3 +254,13 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Javascript Bitwise operator (and, or, xor, not, etc)
   - Task : This keyword in Javascript
   - Status : Done
+
+## Day-24:
+
+- JS Learning
+
+  - Task : Javascript iterables
+  - Task : Events in Javascript (onclick, mouseover,onload etc..)
+  - Task : Javascript sets and maps
+  - Task : Javascript Errors (try,catch and throws)
+  - Status : Done
