@@ -264,3 +264,13 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Javascript sets and maps
   - Task : Javascript Errors (try,catch and throws)
   - Status : Done
+
+## Day-25:
+
+- JS Learning
+
+  - Task : Javascript Hoisting
+  - Task : Javascript Strict mode
+  - Task : Javascript this keyword
+  - Task : Javascript Arrow Function
+  - Status : Done
