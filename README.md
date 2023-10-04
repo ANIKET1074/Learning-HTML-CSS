@@ -274,3 +274,15 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Javascript this keyword
   - Task : Javascript Arrow Function
   - Status : Done
+
+## Day-25:
+
+- JS Learning
+
+  - Task : Javascript Classes
+  - Task : Javascript modules
+  - Task : Random joke generator website (JS practice)
+  - Status : Done
+
+  - Task : Javascript JSON
+  - Status : In progress
