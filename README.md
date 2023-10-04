@@ -275,7 +275,7 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Javascript Arrow Function
   - Status : Done
 
-## Day-25:
+## Day-26:
 
 - JS Learning
 
