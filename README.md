@@ -286,3 +286,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
 
   - Task : Javascript JSON
   - Status : In progress
+
+## Day-27:
+
+- JS Learning
+
+  - Task : Javascript JSON
+  - Task : Javascript Debugging
+  - Task : Javascript Style Guide (naming convention of variables, indention, statement rules etc)
+
+  - Task : Javascript practice
+  - Status : Done
