@@ -14,5 +14,10 @@ let text =
   '{ "firstName":"Anna" , "lastName":"Smith" },' +
   '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
 
+//   Converts the json object to string
+const sendJSON = JSON.stringify(text);
+console.log(sendJSON);
+
+// convert the string to the json object
 const obj = JSON.parse(text);
 console.log(obj);
