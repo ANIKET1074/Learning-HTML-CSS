@@ -297,3 +297,25 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
 
   - Task : Javascript practice
   - Status : Done
+
+## Day-28:
+
+- JS Learning
+
+  - Task : Javascript Object and its properties
+  - Task : Javascript Object Methods
+  - Task : Javascript Display Object
+  - Task : Javascript DOM
+
+  - Status : Done
+
+## Day-29:
+
+- JS Learning
+
+  - Task : Javascript Object Constructors
+  - Task : Javascript Errors and Error handling
+  - Task : Javascript class (constructor and inheritance)
+  - Task : Javascript DOM Practice (Mini project)
+
+  - Status : Done
