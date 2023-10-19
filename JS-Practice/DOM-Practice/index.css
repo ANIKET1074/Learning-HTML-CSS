@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  /* gap: 0.5rem; */
+  flex-direction: column;
+  max-width: 19rem;
+  height: auto;
+  margin: auto;
+  background-color: whitesmoke;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.header {
+  background-color: #000;
+  color: whitesmoke;
+  padding: 1rem;
+}
+
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  width: 19rem;
+  margin: auto;
+}
+
+.element {
+  background-color: #000;
+  color: whitesmoke;
+  width: 5rem;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
