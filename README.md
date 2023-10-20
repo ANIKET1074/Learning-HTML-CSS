@@ -319,3 +319,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Javascript DOM Practice (Mini project)
 
   - Status : Done
+
+## Day-30:
+
+- JS Learning
+
+  - Task : Javascript DOM Navigation
+  - Task : Javascript Events and Event-Listener
+  - Task : Javascript DOM Nodes
+  - Task : Javascript DOM Collections and NodeLists
+
+  - Status : Done
