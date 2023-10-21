@@ -330,3 +330,15 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Javascript DOM Collections and NodeLists
 
   - Status : Done
+
+## Day-31:
+
+- JS Learning
+
+  - Task : Javascript Versions (ES5,ES6)
+  - Task : Features of ES6
+  - Status : Done
+
+  - Task : Functions & this keyword
+  - Task : Javascript Async
+  - Status : In Progress
