@@ -342,3 +342,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Functions & this keyword
   - Task : Javascript Async
   - Status : In Progress
+
+## Day-32:
+
+- JS Learning
+
+  - Task : Functions & this keyword
+  - Task : Javascript Async / Await
+  - Task : Javascript Promises
+  - Task : Javascript Class Intro ( Syntax and Constructor)
+
+  - Status : Done
