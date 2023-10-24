@@ -353,3 +353,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Javascript Class Intro ( Syntax and Constructor)
 
   - Status : Done
+
+## Day-33:
+
+- JS Learning
+
+  - Task : Javascript Class Inheritance
+  - Task : Javascript Class Static
+  - Task : Javascript DOM Intro and Methods
+  - Task : Javascript DOM Document, Elements, HTML, Form
+
+  - Status : Done
