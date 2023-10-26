@@ -29,44 +29,56 @@ document.addEventListener("readystatechange", (event) => {
   }
 });
 
+// const initApp = () => {
+//   const view = document.getElementById("view2");
+//   const div = document.querySelector("div");
+//   const h2 = div.querySelector("h2");
+
+//   view.addEventListener(
+//     "click",
+//     (event) => {
+//       console.log(event.target);
+//       //   event.target.style.backgroundColor = "white";
+//       //   event.target.style.color = "black";
+//       //   view.style.backgroundColor = "white";
+//       //   view.style.color = "black";
+
+//       //   or we have another property called .add() or .remove() class
+//       //   view.classList.toggle("purple");
+//       //   view.classList.toggle("black");
+//     },
+//     false
+//   );
+
+//   div.addEventListener(
+//     "click",
+//     (event) => {
+//       //   event.target.style.backgroundColor = "cyan";
+//       //   div.style.backgroundColor = "cyan";
+//     },
+//     false
+//   );
+
+//   h2.addEventListener(
+//     "click",
+//     (event) => {
+//       // it indicates that the event will stop propogating further
+//       //   event.stopPropagation();
+//       //   event.target.style.color = "purple";
+//       //   h2.style.color = "purple";
+//     },
+//     false
+//   );
+// };
+
+// Form Handling
+
 const initApp = () => {
-  const view = document.getElementById("view2");
-  const div = document.querySelector("div");
-  const h2 = div.querySelector("h2");
+  const view2 = document.querySelector("#view2");
+  const myForm = view2.querySelector("#myForm");
 
-  view.addEventListener(
-    "click",
-    (event) => {
-      console.log(event.target);
-      //   event.target.style.backgroundColor = "white";
-      //   event.target.style.color = "black";
-      //   view.style.backgroundColor = "white";
-      //   view.style.color = "black";
-
-      //   or we have another property called .add() or .remove() class
-      view.classList.toggle("purple");
-      view.classList.toggle("black");
-    },
-    false
-  );
-
-  div.addEventListener(
-    "click",
-    (event) => {
-      //   event.target.style.backgroundColor = "cyan";
-      div.style.backgroundColor = "cyan";
-    },
-    false
-  );
-
-  h2.addEventListener(
-    "click",
-    (event) => {
-      // it indicates that the event will stop propogating further
-      //   event.stopPropagation();
-      //   event.target.style.color = "purple";
-      //   h2.style.color = "purple";
-    },
-    false
-  );
+  myForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    console.log("submit form");
+  });
 };

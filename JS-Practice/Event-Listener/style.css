@@ -63,3 +63,22 @@ body {
 .purple {
   background-color: purple;
 }
+
+.btn {
+  width: 4rem;
+  border-radius: 1rem;
+  background-color: burlywood;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+.txt {
+  width: 12rem;
+  border-radius: 0.3rem;
+  outline: none;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+}
