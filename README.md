@@ -364,3 +364,26 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Javascript DOM Document, Elements, HTML, Form
 
   - Status : Done
+
+## Day-34:
+
+- JS Learning
+
+  - Task : Javascript BOM (window, screen, location)
+  - Task : Javascript BOM Navigator
+  - Task : Javascript Web Api (intro, history )
+  - Task : Javascript Web Api (Forms)
+
+  - Status : Done
+
+## Day-35:
+
+- JS Learning
+
+  - Task : Javascript Higher Order Function (map, filter, reduce)
+  - Task : Javascript BOM Popup Alert
+  - Task : Javascript Web Storage API (localStorage, sessionStorage)
+  - Task : Javascript Web Worker API
+  - Task : Javascript Web Fetch API
+
+  - Status : Done
