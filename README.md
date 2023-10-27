@@ -387,3 +387,15 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Javascript Web Fetch API
 
   - Status : Done
+
+## Day-36:
+
+- JS Learning
+
+  - Task : Javascript BOM Timing
+  - Task : Javascript BOM Cookies
+  - Task : Javascript JSON intro and DataTypes
+  - Task : Javascript JSON methods (parse and stringify)
+  - Task : Javascript JSON arrays , objects
+
+  - Status : Done
