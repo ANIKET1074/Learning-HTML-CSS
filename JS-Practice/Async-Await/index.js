@@ -89,8 +89,106 @@ const getAllUserEmails = async () => {
 // await for the response and then convert it into json
 // now we create the email array by using map function
 
-getAllUserEmails();
+// getAllUserEmails();
 
 // this will not give result it shows promise pending
 // as log is not async it execute first and waiting for the result to fetch..
 // console.log(getAllUserEmails);
+
+// 2nd Parameter of fetch that is an object
+
+const getDadJoke = async () => {
+  const response = await fetch("https://icanhazdadjoke.com/", {
+    method: "GET",
+    headers: {
+      Accept: "application/json",
+      //   Accept: "text/plain",
+    },
+  });
+
+  const jsonJokeData = await response.json();
+  //   const textJokeData = await response.text();
+
+  console.log(jsonJokeData);
+  //   console.log(textJokeData);
+};
+
+getDadJoke();
+
+// Post the data in the API
+
+const jokeObject = {
+  id: "WSKe2ojiNe",
+  joke: "I used to hate facial hair, but then it grew on me.",
+};
+
+const postData = async (jokeObj) => {
+  const response = await fetch("https://httpbin.org/post", {
+    method: "POST",
+    headers: {
+      "Content-type": "application/json",
+    },
+    body: JSON.stringify(jokeObj),
+  });
+
+  const jokeResponse = await response.json();
+
+  console.log(jokeResponse.headers);
+};
+
+// postData(jokeObject);
+
+// request the joke through parameters
+
+// const requestJoke = async (firstName, lastName) => {
+//   const response = await fetch(
+//     `https://api.icndb.com/jokes/random?firstName=${firstName}&lastName=${lastName}`
+//   );
+
+//   const jsonResponse = await response.json();
+
+//   console.log(jsonResponse.value.joke);
+// };
+
+// requestJoke("Bruce", "Lee");
+
+// abstract into Functions
+
+// maybe from the form
+
+const getDataFromForm = () => {
+  const requestObj = {
+    firstName: "Bruce",
+    lastName: "Lee",
+    categories: ["nerdy"],
+  };
+
+  return requestObj;
+};
+
+const buildRequestUrl = (requestData) => {
+  return `http://api.icndb.com/jokes/random?firstName=${requestData.firstName}&lastName=${requestData.lastName}&limitTo=${requestData.categories}`;
+};
+
+const requestJoke = async (url) => {
+  const response = await fetch(url);
+  const jsonResponse = await response.json();
+  const joke = jsonResponse.value.joke;
+
+  postJokeToPage(joke);
+};
+
+const postJokeToPage = (joke) => {
+  console.log(joke);
+};
+
+// Procedural "workflow" function
+
+const processJokeRequest = async () => {
+  const requestData = getDataFromForm();
+  const requestUrl = buildRequestUrl(requestData);
+  await requestJoke(requestUrl);
+  console.log("finished!");
+};
+
+processJokeRequest();
