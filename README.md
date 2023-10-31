@@ -399,3 +399,25 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Javascript JSON arrays , objects
 
   - Status : Done
+
+## Day-37:
+
+- JS Learning
+
+  - Task: Client side web APIs
+  - Task: Memory life cycle (memory allocation, garbage collection)
+  - Task: Inheritance and prototyping chain
+
+  - Status : Done
+
+## Day-38:
+
+- JS Learning
+
+  - Task: JS Graphics
+  - Task: JS Canvas
+  - Task: JS Plotly
+  - Task: JS Chart.js
+  - Task: JS Google charts
+
+  - Status : Done
