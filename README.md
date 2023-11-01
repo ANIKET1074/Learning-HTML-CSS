@@ -421,3 +421,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task: JS Google charts
 
   - Status : Done
+
+## Day-39:
+
+- JS Learning
+
+  - Task: JS AJAX intro
+  - Task: JS AJAX XMLHttp
+  - Task: JS AJAX Request
+  - Task: JS AJAX Response
+
+  - Status : Done
