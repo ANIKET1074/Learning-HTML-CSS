@@ -432,3 +432,39 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task: JS AJAX Response
 
   - Status : Done
+
+## Day-40:
+
+- JS Learning
+
+  - Task: AJAX XML file
+  - Task: AJAX examples and Applications
+  - Task: React intro and installation
+
+  - Status : Done
+
+  - Task: Hooks in react
+  - Status : In progress
+
+## Day-41:
+
+- React JS Learning
+
+  - Task: React hooks (useState)
+  - Task: Markup with JSX
+  - Task: JS in JSX and Curly Braces
+  - Task: Passing props to the component
+
+  - Status : Done
+
+## Day-42:
+
+- React JS Learning
+
+  - Task: Passing Props to Component (Arrays)
+  - Task: Structuring Components and Style the components
+  - Task: Conditional Rendering
+  - Task: Rendering List
+  - Task: Keeping Components Pure
+
+  - Status : Done
