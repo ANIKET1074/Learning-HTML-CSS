@@ -490,3 +490,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task: State in React
 
   - Status : Done
+
+## Day-45:
+
+- React JS Learning
+
+  - Task: Responding to Events
+  - Task: Hooks (useState)
+  - Task: Activity (create like button)
+  - Task: Closure in JS
+
+  - Status : Done
