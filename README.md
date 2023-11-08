@@ -399,3 +399,60 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Javascript JSON arrays , objects
 
   - Status : Done
+
+## Day-37:
+
+- JS Learning
+
+  - Task : JavaScript JQuery introduction and Selectors
+  - Task : Javascript JQuery Elements
+  - Task : Javascript JQuery CSS
+  - Task : Javascript JQuery DOM
+  - Task : Javascript Graphics
+
+  - Status : Done
+
+## Day-38:
+
+- JS Learning
+
+  - Task: Client side web APIs
+  - Task: Memory life cycle (memory allocation, garbage collection)
+  - Task: Inheritance and prototyping chain
+
+  - Status : Done
+
+## Day-39:
+
+- JS Learning
+
+  - Task: JS Graphics
+  - Task: JS Canvas
+  - Task: JS Plotly
+  - Task: JS Chart.js
+  - Task: JS Google charts
+
+  - Status : Done
+
+## Day-40:
+
+- JS Learning
+
+  - Task: JS AJAX intro
+  - Task: JS AJAX XMLHttp
+  - Task: JS AJAX Request
+  - Task: JS AJAX Response
+
+  - Status : Done
+
+## Day-41:
+
+- JS Learning
+
+  - Task: AJAX XML file
+  - Task: AJAX examples and Applications
+  - Task: React intro and installation
+  - Status : Done
+
+  - Task: Hooks in react
+  - Status : In progress
