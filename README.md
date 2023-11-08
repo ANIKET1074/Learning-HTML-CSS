@@ -501,3 +501,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task: Closure in JS
 
   - Status : Done
+
+## Day-46:
+
+- React JS Learning
+
+  - Task: Re-render Component (How it works)
+  - Task: Callback in set State function and more about states
+  - Task: Object,Arrrays and States
+  - Task: Activity-(Create-likeButton and LudoBoard)
+
+  - Status : Done
