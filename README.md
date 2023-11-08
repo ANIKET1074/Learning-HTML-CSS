@@ -472,10 +472,21 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
 
 - React JS Learning
 
-- Task: Passing Props to Component (Arrays)
-- Task: Structuring Components and Style the components
-- Task: Conditional Rendering
-- Task: Rendering List
-- Task: Keeping Components Pure
+  - Task: Passing Props to Component (Arrays)
+  - Task: Structuring Components and Style the components
+  - Task: Conditional Rendering
+  - Task: Rendering List
+  - Task: Keeping Components Pure
 
-- Status : Done
+  - Status : Done
+
+## Day-44:
+
+- React JS Learning
+
+  - Task: Handling Click events
+  - Task: Handling non-click events
+  - Task: Event Object
+  - Task: State in React
+
+  - Status : Done
