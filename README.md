@@ -467,3 +467,15 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task: Passing props to the component
 
   - Status : Done
+
+## Day-43:
+
+- React JS Learning
+
+- Task: Passing Props to Component (Arrays)
+- Task: Structuring Components and Style the components
+- Task: Conditional Rendering
+- Task: Rendering List
+- Task: Keeping Components Pure
+
+- Status : Done
