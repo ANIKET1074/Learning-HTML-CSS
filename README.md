@@ -387,3 +387,128 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task : Javascript Web Fetch API
 
   - Status : Done
+
+## Day-36:
+
+- JS Learning
+
+  - Task : Javascript BOM Timing
+  - Task : Javascript BOM Cookies
+  - Task : Javascript JSON intro and DataTypes
+  - Task : Javascript JSON methods (parse and stringify)
+  - Task : Javascript JSON arrays , objects
+
+  - Status : Done
+
+## Day-37:
+
+- JS Learning
+
+  - Task : JavaScript JQuery introduction and Selectors
+  - Task : Javascript JQuery Elements
+  - Task : Javascript JQuery CSS
+  - Task : Javascript JQuery DOM
+  - Task : Javascript Graphics
+
+  - Status : Done
+
+## Day-38:
+
+- JS Learning
+
+  - Task: Client side web APIs
+  - Task: Memory life cycle (memory allocation, garbage collection)
+  - Task: Inheritance and prototyping chain
+
+  - Status : Done
+
+## Day-39:
+
+- JS Learning
+
+  - Task: JS Graphics
+  - Task: JS Canvas
+  - Task: JS Plotly
+  - Task: JS Chart.js
+  - Task: JS Google charts
+
+  - Status : Done
+
+## Day-40:
+
+- JS Learning
+
+  - Task: JS AJAX intro
+  - Task: JS AJAX XMLHttp
+  - Task: JS AJAX Request
+  - Task: JS AJAX Response
+
+  - Status : Done
+
+## Day-41:
+
+- JS Learning
+
+  - Task: AJAX XML file
+  - Task: AJAX examples and Applications
+  - Task: React intro and installation
+  - Status : Done
+
+  - Task: Hooks in react
+  - Status : In progress
+
+## Day-42:
+
+- React JS Learning
+
+  - Task: React hooks (useState)
+  - Task: Markup with JSX
+  - Task: JS in JSX and Curly Braces
+  - Task: Passing props to the component
+
+  - Status : Done
+
+## Day-43:
+
+- React JS Learning
+
+  - Task: Passing Props to Component (Arrays)
+  - Task: Structuring Components and Style the components
+  - Task: Conditional Rendering
+  - Task: Rendering List
+  - Task: Keeping Components Pure
+
+  - Status : Done
+
+## Day-44:
+
+- React JS Learning
+
+  - Task: Handling Click events
+  - Task: Handling non-click events
+  - Task: Event Object
+  - Task: State in React
+
+  - Status : Done
+
+## Day-45:
+
+- React JS Learning
+
+  - Task: Responding to Events
+  - Task: Hooks (useState)
+  - Task: Activity (create like button)
+  - Task: Closure in JS
+
+  - Status : Done
+
+## Day-46:
+
+- React JS Learning
+
+  - Task: Re-render Component (How it works)
+  - Task: Callback in set State function and more about states
+  - Task: Object,Arrrays and States
+  - Task: Activity-(Create-likeButton and LudoBoard)
+
+  - Status : Done
