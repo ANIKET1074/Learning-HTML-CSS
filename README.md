@@ -456,3 +456,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
 
   - Task: Hooks in react
   - Status : In progress
+
+## Day-42:
+
+- React JS Learning
+
+  - Task: React hooks (useState)
+  - Task: Markup with JSX
+  - Task: JS in JSX and Curly Braces
+  - Task: Passing props to the component
+
+  - Status : Done
