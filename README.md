@@ -512,3 +512,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task: Activity-(Create-likeButton and LudoBoard)
 
   - Status : Done
+
+## Day-47:
+
+- React JS Learning
+
+  - Task: Activity (Create a Todo list)
+  - Task: Insert, Delete, Update and add a mark as done in the todo
+  - Task: Reacting to input with states
+  - Task: Choosing the state structure
+
+  - Status : Done
