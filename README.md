@@ -523,3 +523,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task: Choosing the state structure
 
   - Status : Done
+
+## Day-48:
+
+- React JS Learning
+
+  - Task: Sharing State between Components
+  - Task: Preserving and resetting the states
+  - Task: Extracting state logic into a Reducer
+  - Task: Passing data deeply with Context
+
+  - Status : Done
