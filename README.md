@@ -534,3 +534,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task: Passing data deeply with Context
 
   - Status : Done
+
+## Day-49:
+
+- React JS Learning
+
+  - Task: Scaling up with context and reducer
+  - Task: Referencing values with Refs
+  - Task: Manipulating the DOM with Refs
+  - Task: Synchronizing with Effects
+
+  - Status : Done
