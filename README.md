@@ -545,3 +545,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task: Synchronizing with Effects
 
   - Status : Done
+
+## Day-50:
+
+- React JS Learning
+
+  - Task: Activity Lottery Game and Function as a Props
+  - Task: LifeCycle of Reactive Effects
+  - Task: Seperating Events from Effects
+  - Task: Removing Effect Dependencies
+
+  - Status : Done
