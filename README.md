@@ -556,3 +556,14 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task: Removing Effect Dependencies
 
   - Status : Done
+
+## Day-51:
+
+- React JS Learning
+
+  - Task: Material UI (Intro and Installation)
+  - Task: Components in Material UI
+  - Task: Create a Weather APP (using weather api and Material UI)
+  - Task: Reusing Logic with Custom Hooks
+
+  - Status : Done
