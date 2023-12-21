@@ -468,3 +468,16 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task: Keeping Components Pure
 
   - Status : Done
+
+# Internship All Daily Task details
+
+## Day-1:
+
+- Topic : Understanding the code structure and Review
+
+- Task: File Directory structure and routes
+- Task: Database model and structure
+- Status: Completed
+
+- Task: API Handling
+- Status: In Progress
