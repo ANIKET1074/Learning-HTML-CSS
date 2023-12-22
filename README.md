@@ -567,3 +567,27 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
   - Task: Reusing Logic with Custom Hooks
 
   - Status : Done
+
+# Crystegraphy Internship Daily Task Details
+
+## Day-1
+
+- Topic : Understanding the code structure and Review
+
+- Task: File Directory structure and routes
+- Task: Database model and structure
+- Status: Completed
+
+- Task: API Handling
+- Status: In Progress
+
+## Day-2
+
+- Topic : Understanding the code structure and Review
+
+- Task: File Directory structure and routes (of Frontend)
+- Task: Styling and SCSS Files
+- Status: Completed
+
+- Task: Authentication Services (Role base authentication)
+- Status: In Progress
