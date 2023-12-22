@@ -480,6 +480,7 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
 - Status: Completed
 
 <<<<<<< HEAD
+
 ## Day-45:
 
 - React JS Learning
@@ -580,7 +581,6 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
 
 - Task: Authentication Services (Role base authentication)
 - Status: In Progress
-=======
+
 - Task: API Handling
 - Status: In Progress
->>>>>>> ebdca906ec02f838fc43682312083059e941d51a
