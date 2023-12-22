@@ -404,25 +404,13 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
 
 - JS Learning
 
-  - Task : JavaScript JQuery introduction and Selectors
-  - Task : Javascript JQuery Elements
-  - Task : Javascript JQuery CSS
-  - Task : Javascript JQuery DOM
-  - Task : Javascript Graphics
-
-  - Status : Done
-
-## Day-38:
-
-- JS Learning
-
   - Task: Client side web APIs
   - Task: Memory life cycle (memory allocation, garbage collection)
   - Task: Inheritance and prototyping chain
 
   - Status : Done
 
-## Day-39:
+## Day-38:
 
 - JS Learning
 
@@ -434,7 +422,7 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
 
   - Status : Done
 
-## Day-40:
+## Day-39:
 
 - JS Learning
 
@@ -445,19 +433,20 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
 
   - Status : Done
 
-## Day-41:
+## Day-40:
 
 - JS Learning
 
   - Task: AJAX XML file
   - Task: AJAX examples and Applications
   - Task: React intro and installation
+
   - Status : Done
 
   - Task: Hooks in react
   - Status : In progress
 
-## Day-42:
+## Day-41:
 
 - React JS Learning
 
@@ -468,7 +457,7 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
 
   - Status : Done
 
-## Day-43:
+## Day-42:
 
 - React JS Learning
 
@@ -480,17 +469,17 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
 
   - Status : Done
 
-## Day-44:
+# Internship All Daily Task details
 
-- React JS Learning
+## Day-1:
 
-  - Task: Handling Click events
-  - Task: Handling non-click events
-  - Task: Event Object
-  - Task: State in React
+- Topic : Understanding the code structure and Review
 
-  - Status : Done
+- Task: File Directory structure and routes
+- Task: Database model and structure
+- Status: Completed
 
+<<<<<<< HEAD
 ## Day-45:
 
 - React JS Learning
@@ -591,3 +580,7 @@ This is the repository for Learning Basics of HTML , CSS and JS during the inter
 
 - Task: Authentication Services (Role base authentication)
 - Status: In Progress
+=======
+- Task: API Handling
+- Status: In Progress
+>>>>>>> ebdca906ec02f838fc43682312083059e941d51a
